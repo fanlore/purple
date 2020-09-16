@@ -166,7 +166,7 @@ button.card__button:hover {
 }
 .card__icon {
 	width: 70px;
-	height:70px;
+	height: 70px;
 }
 .card__subtitle {
 	font-size:22px;
@@ -247,6 +247,9 @@ ul {
 .footer__nav {
 	max-width: 100%;
 }
+.programm__table {
+		width: 100%;
+}
 @media(max-width:1200px) {
 	.slider__content {
 		transform: rotate(0deg);
@@ -296,5 +299,8 @@ ul {
 	}
 	table {
 		font-size:14px;
+	}
+	.table-bg {
+		overflow-x: scroll;
 	}
 }
