@@ -303,4 +303,7 @@ ul {
 	.table-bg {
 		overflow-x: scroll;
 	}
+	.reg__form input:first-child {
+		margin-bottom:0;
+		display: block;
 }
